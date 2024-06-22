@@ -9,7 +9,9 @@ body{
 }
 
 .header{
-    position: fixed;
+    position: sticky;
+    top: 0;
+    z-index: 1;
     background-color: #000;
     color: #fff;
     font-size: 0.75em;
@@ -92,7 +94,7 @@ opacity: 0.8;
     color: white;
     height: 580px;
     text-align: center;
-    background-image: url('\\images\\home\\iphone11-pro-bg.jpg');
+    background-image: url('../images/home/iphone11-pro-bg.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
