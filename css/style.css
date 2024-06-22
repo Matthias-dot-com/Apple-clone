@@ -1,0 +1,331 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0 0;
+}
+
+.header{
+    position: fixed;
+    background-color: #000;
+    color: #fff;
+    font-size: 0.75em;
+    font-weight: 200;
+    width: 100%;
+    
+}
+
+.header-wrap{
+    width: 980px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.header-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.header-list li{
+    list-style: none;
+    display: inline;
+    padding: 14px 0 8px;
+}
+
+.header-list  li a{
+text-decoration: none;
+font-size: 15px;
+color: #fff;
+opacity: 0.8;
+}
+.logo,.search-icon,.cart{
+    opacity:0.8;
+}
+
+/*--------------------- end of header------------------------------- */
+
+.wrapper1{
+    color: #000;
+    text-align: center;
+    padding: 25px 0;
+}
+
+.smalltext{
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    opacity: 0.8;
+    
+}
+
+.boldtext{
+    font-size: 56px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.mediumtext{
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+.links ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 15px 0;
+}
+.links a{
+    text-decoration: none;
+    padding: 0 20px 0 0;
+    color: #0066cc;
+
+}
+
+/* ---------------------end of section 1 --------------*/
+
+
+.wrapper2{
+    height: 580px;
+    color: white;
+    height: 580px;
+    text-align: center;
+    background-image: url('\\images\\home\\iphone11-pro-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 65px 20px;
+}
+
+.wrapper2 .mediumtext{
+
+    padding: 10px;
+}
+
+
+
+
+/* ----------------end of section 2 ---------------------- */
+.wrapper3{
+    background-image: url('../images/home/iphone11-bg.jpg');
+    height: 580px;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 65px 20px;
+}
+
+.wrapper3 .mediumtext{
+    padding: 10px;
+}
+
+
+
+
+/* --------------------end of section 3--------------------- */
+
+.wrapper4{
+    display: flex;
+    font-size: 20px;
+}
+.description-wrap{
+    max-width: 430px;
+    padding: 10px 0;
+    margin: 0 auto;
+}
+.vertical-section1{
+    width: 48.5%;
+    text-align: center;
+  
+}
+.boldtext2{
+    font-size: 45px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+
+.vertical-section2{
+    width: 48.5%;
+    text-align: center;
+  
+}
+
+.servant-wrap{
+    padding: 180px 0 200px;
+}
+
+  .div62{
+    background-image: url('../images/home/new-ipad.jpg');
+    background-size: initial;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding: 54px 0 0;
+
+    height: 580px;
+    margin: 1% 0.5% 0% 1%;
+    background-color: #fafafa;
+    background-position: bottom;
+} 
+.div61{
+    background-image: url('../images/home/macbook-pro.jpg');
+    background-size: initial;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding: 54px 0 0;
+
+    height: 580px;
+    margin: 1% 0.5% 0% 1%;
+    background-color: #fafafa;
+    background-position: bottom;
+} 
+
+.div51{
+    background-image: url('../images/home/apple-tv-background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 54px 0 0;
+    color: white;
+    height: 580px;
+    margin: 1% 0.5% 0% 1%;
+    background-color: #fafafa;
+    background-position: bottom;
+}
+
+.div52{
+    background-image: url('../images/home/air-pods.jpg');
+    background-size: initial;
+    background-position: bottom;
+    background-color: black;
+    background-repeat: no-repeat;
+    padding: 54px 0 0;
+    color: white;
+    height: 580px;
+    margin: 1% 0.5% 0% 1%;
+}
+.div41{
+    background-image: url('../images/home/watch-series-5.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 54px 0 0;
+text-align: center;
+    height: 580px;
+    margin: 1% 0.5% 0% 1%;
+    background-color: #fafafa;
+    background-position: bottom;
+}
+.div42{
+    background-image: url('../images/home/apple-card.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 54px 0 0;
+
+    height: 580px;
+    margin: 1% 0.5% 0% 1%;
+    background-color: #fafafa;
+    background-position: bottom;
+}
+
+
+.watch-more-wrapper a:after {
+    font-family: "FontAwesome";
+    font-weight: 900;
+    content: "\f144";
+    padding-left: 15px;
+}
+
+.watch-more-wrapper a {
+    text-decoration: none;
+    font-size: 0.85em;}
+
+
+
+/* ----------------end of section 4 ---------------------- */
+footer{
+    color: #1d1d1f;
+    font-size: 0.65em;
+    background-color: #f5f5f7;
+
+}
+.upper-text-container {
+    border-bottom: 1px solid #d2d2d7;
+    color: #86868b;
+    padding: 17px 0 20px;
+}
+.upper-text-container p{
+    font-size: 13px;
+}
+.internal-wrapper {
+    width: 980px;
+    padding: 0 10px;
+    margin: 0 auto;
+
+}
+
+/* -------------------end of paragraph ------------------- */
+
+.Tl{
+    font-size: 13px;
+    padding: 20px 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+.Tl h3{
+    font-size: 12px;
+    font-weight: 600;
+}
+.Tl li {
+padding: 5px;
+list-style-type: none;
+}
+
+.Tl li a{
+    text-decoration: none;
+    color: #86868b;
+    font-size: 0.9em;
+}
+.moreinfo{
+    font-size: 13px;
+    padding: 0 0 10px;
+    margin: 0 0 10px;
+    border-bottom: 1px solid #d2d2d7;
+
+}
+
+.foot-content{
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    padding: 10px 0 20px;
+}
+
+.foot-content ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0 0 20px;
+
+}
+.foot-content a{
+    text-decoration: none;
+    color: #515154;
+    font-size: 0.9em;
+    opacity: 0.9;
+}
+
+.foot-content li{
+    padding: 0 5px;
+    border-right: 1px solid #d2d2d7;
+}
+
+.country{
+    display: flex;
+}
+
+
